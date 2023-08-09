@@ -1281,7 +1281,7 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='my_bot'>
+      <model name='amrobot_one'>
         <pose>0.016211 2.5e-05 0.032499 1.1e-05 -6e-06 -0.005515</pose>
         <scale>1 1 1</scale>
         <link name='base_link'>
@@ -1314,7 +1314,7 @@
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
-    <model name='my_bot'>
+    <model name='amrobot_one'>
       <link name='base_link'>
         <inertial>
           <pose>0.107429 0 0.067786 0 -0 0</pose>
@@ -1675,8 +1675,8 @@
       </link>
       <static>0</static>
       <plugin name='gazebo_ros2_control' filename='libgazebo_ros2_control.so'>
-        <parameters>/home/agvpc/amr_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml</parameters>
-        <parameters>/home/agvpc/amr_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml</parameters>
+        <parameters>/home/agvpc/amr_ws/install/amrobot_one/share/amrobot_one/config/my_controllers.yaml</parameters>
+        <parameters>/home/agvpc/amr_ws/install/amrobot_one/share/amrobot_one/config/gaz_ros2_ctl_use_sim.yaml</parameters>
       </plugin>
       <pose>0 0 0 0 -0 0</pose>
     </model>
